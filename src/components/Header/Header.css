@@ -1,37 +1,57 @@
+
+.header {
+  padding: 16px 32px;
+  background-color: #fff;
+}
+
 .header__content {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.header__logo-link {
-  text-decoration: none;
-}
+
 .header__logo {
-  font-family: Sail;
+  font-family: 'Sail';
   font-weight: 400;
   font-size: 26px;
-  line-height: 100%;
   color: #9c0746;
-  margin-top: 24px;
+  margin: 0;
+}
+
+.header__logo-link {
+  text-decoration: none;
+  color: inherit;
 }
 
 .header__info {
   display: flex;
-  justify-content: space-between;
-  padding: 0;
-  margin-top: 26px;
+  gap: 24px;
   list-style: none;
-  width: 412px;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
 }
 
-.header__info-list {
-  font-family: Montserrat;
+.header__info-link {
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 100%;
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+  transition: color 0.2s;
 }
+
+.header__info-link:hover {
+  color: #9c0746;
+}
+
 .header__basket-link {
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
+
 .header__basket {
-  margin-top: 18px;
+  height: auto;
 }
