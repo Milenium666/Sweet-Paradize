@@ -1,0 +1,37 @@
+.header__content {
+  display: flex;
+  justify-content: space-around;
+}
+.header__logo-link {
+  text-decoration: none;
+}
+.header__logo {
+  font-family: Sail;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 100%;
+  color: #9c0746;
+  margin-top: 24px;
+}
+
+.header__info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-top: 26px;
+  list-style: none;
+  width: 412px;
+}
+
+.header__info-list {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+}
+.header__basket-link {
+  text-decoration: none;
+}
+.header__basket {
+  margin-top: 18px;
+}
