@@ -1,7 +1,23 @@
-
 .header {
   padding: 16px 32px;
   background-color: #fff;
+  position: relative;
+  z-index: 10;
+}
+
+.header_sweet {
+  position: fixed;
+  top: 70px;
+  left: -235px;
+  transform: rotate(-40deg);
+  opacity: 0.03;
+  margin: 0;
+  font-family: Sail;
+  font-weight: 400;
+  font-size: 400px;
+  line-height: 100%;
+  color: #9c0746;
+  z-index: 1;
 }
 
 .header__content {
@@ -12,11 +28,13 @@
 }
 
 .header__logo {
-  font-family: 'Sail';
+  position: relative;
+  font-family: "Sail";
   font-weight: 400;
   font-size: 26px;
   color: #9c0746;
   margin: 0;
+  z-index: 9;
 }
 
 .header__logo-link {
@@ -34,7 +52,7 @@
 }
 
 .header__info-link {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #000;

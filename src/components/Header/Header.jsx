@@ -4,6 +4,8 @@ import basket from "../../images/header-basket.svg";
 function Header() {
   return (
     <header className="header">
+              <div className="header_sweet">Sweet</div>
+
       <nav className="header__content">
         <h1 className="header__logo">
           <a className="header__logo-link" href="/">Sweet Paradise</a>

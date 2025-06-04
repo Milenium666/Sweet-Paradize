@@ -1,6 +1,7 @@
 .promo__about {
-  margin: 256px 0 0 244px;
+  margin: 254px 0 0 244px;
   max-width: 615px;
+  z-index: 9;
 }
 
 .promo__title {
@@ -27,6 +28,7 @@
   margin-right: 30px;
   color: #9c0746;
   border: 1px solid #9c0746;
+  background-color: #ffffff;
 }
 .promo__button:hover {
   box-shadow: 0px 20px 40px 0px #0000004f;
