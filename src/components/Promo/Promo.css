@@ -5,16 +5,16 @@
 }
 
 .promo__title {
-  font-family: Sail;
-  font-weight: 400;
+  font-family: var(--front-family_Seil);
+  font-weight: var(--font-weghht_400);
   font-size: 80px;
-  line-height: 100%;
-  color: #9c0746;
+  line-height: var(--line-height_100);
+  color: var(--color-dark_pink);
   margin: 0;
 }
 .promo__subtitle {
-  font-family: Montserrat;
-  font-weight: 900;
+  font-family: var(--front-family_Montserrat);
+  font-weight: var(--font-weghht_900);
   font-size: 60px;
   line-height: 105%;
   margin: 40px 0 60px 0;
@@ -26,17 +26,21 @@
   height: 70px;
   border-radius: 50px;
   margin-right: 30px;
-  color: #9c0746;
-  border: 1px solid #9c0746;
-  background-color: #ffffff;
+  color: var(--color-dark_pink);
+  border: 1px solid var(--color-dark_pink);
+  background-color: var(--color-white);
 }
 .promo__button:hover {
   box-shadow: 0px 20px 40px 0px #0000004f;
 }
 .promo__button_active {
-  color: #ffffff;
+  color: var(--color-white);
   border: none;
-  background: linear-gradient(85.61deg, #9c0746 -15.57%, #b44e79 128.11%);
+  background: linear-gradient(
+    85.61deg,
+    var(--color-dark_pink) -15.57%,
+    #b44e79 128.11%
+  );
 }
 .promo__button-active:hover {
   box-shadow: 0px 20px 40px 0px #0000004f;
