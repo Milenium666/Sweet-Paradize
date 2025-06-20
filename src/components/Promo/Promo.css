@@ -21,6 +21,8 @@
 }
 
 .promo__button {
+  position: relative;
+  z-index: 12;
   cursor: pointer;
   width: 260px;
   height: 70px;
@@ -34,6 +36,9 @@
   box-shadow: 0px 20px 40px 0px #0000004f;
 }
 .promo__button_active {
+  position: relative;
+  z-index: 11;
+
   color: var(--color-white);
   border: none;
   background: linear-gradient(
@@ -44,4 +49,17 @@
 }
 .promo__button-active:hover {
   box-shadow: 0px 20px 40px 0px #0000004f;
+}
+.promo__container-video {
+  margin-top: 200px;
+}
+
+.promo__image {
+  margin-top: 208px;
+margin-left: 250px;
+margin-bottom: 250px;
+  
+
+
+
 }

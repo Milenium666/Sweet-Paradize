@@ -1,5 +1,8 @@
 import "./Promo.css";
 
+import cover from '../../images/cover-video.png'
+import raspberry from '../../images/Malinka-bez-hvostika.png'
+
 function Promo() {
   return (
     <section className="promo">
@@ -15,6 +18,11 @@ function Promo() {
           </button>
         </div>
       </div>
+
+
+
+        <img src={cover} alt="картинка для видео" className="promo__image"/>
+        <img src={raspberry} alt="raspberry" className="promo__image"/>
     </section>
   );
 }

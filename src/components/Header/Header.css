@@ -7,6 +7,7 @@
 
 .header_sweet {
   position: fixed;
+z-index: -199;
   top: 70px;
   left: -210px;
   transform: rotate(-40deg);
@@ -17,7 +18,7 @@
   font-size: 400px;
   line-height: var(--line-height_100);
   color: var(--color-dark_pink);
-  z-index: 1;
+  
   width: 1007px;
   height: 462px;
   box-sizing: border-box;
@@ -25,6 +26,7 @@
 
 .header__paradise {
   position: fixed;
+   z-index:-200;
   top: 200px;
   left: -40px;
   transform: rotate(-40deg);
@@ -34,6 +36,7 @@
   font-size: 400px;
   line-height: var(--line-height_100);
   color: var(--color-dark_pink);
+ 
 }
 
 .header__content {
