@@ -6,7 +6,7 @@
 }
 
 .header_sweet {
-  position: fixed;
+  position: absolute;
 z-index: -199;
   top: 70px;
   left: -210px;
@@ -25,7 +25,7 @@ z-index: -199;
 }
 
 .header__paradise {
-  position: fixed;
+  position: absolute;
    z-index:-200;
   top: 200px;
   left: -40px;
