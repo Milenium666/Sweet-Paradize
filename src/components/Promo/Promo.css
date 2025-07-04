@@ -56,10 +56,16 @@
 
 .promo__image {
   margin-top: 208px;
-margin-left: 250px;
-margin-bottom: 250px;
-  
+  margin-left: 250px;
+  margin-bottom: 250px;
+  position: relative;
+  z-index: 150;
+}
 
-
-
+.promo__raspberry {
+  position: absolute;
+  /* width: 154px;
+  height: 150px; */
+  top: 949px;
+  left: 520px;
 }

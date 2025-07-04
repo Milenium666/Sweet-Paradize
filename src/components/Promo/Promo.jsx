@@ -22,7 +22,7 @@ function Promo() {
 
 
         <img src={cover} alt="картинка для видео" className="promo__image"/>
-        <img src={raspberry} alt="raspberry" className="promo__image"/>
+        <img src={raspberry} alt="raspberry" className="promo__raspberry"/>
     </section>
   );
 }
