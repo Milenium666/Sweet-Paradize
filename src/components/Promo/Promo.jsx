@@ -1,5 +1,6 @@
 import "./Promo.css";
 
+import Slider from '../Slider/Slider.jsx';
 import cover from '../../images/cover-video.png'
 import raspberry from '../../images/Malinka-bez-hvostika.png'
 
@@ -23,6 +24,7 @@ function Promo() {
 
         <img src={cover} alt="картинка для видео" className="promo__image"/>
         <img src={raspberry} alt="raspberry" className="promo__raspberry"/>
+        <Slider />
     </section>
   );
 }

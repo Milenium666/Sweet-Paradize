@@ -7,7 +7,7 @@
 
 .header_sweet {
   position: absolute;
-z-index: -199;
+  z-index: -199;
   top: 70px;
   left: -210px;
   transform: rotate(-40deg);
@@ -18,7 +18,7 @@ z-index: -199;
   font-size: 400px;
   line-height: var(--line-height_100);
   color: var(--color-dark_pink);
-  
+
   width: 1007px;
   height: 462px;
   box-sizing: border-box;
@@ -26,7 +26,7 @@ z-index: -199;
 
 .header__paradise {
   position: absolute;
-   z-index:-200;
+  z-index: -200;
   top: 200px;
   left: -40px;
   transform: rotate(-40deg);
@@ -36,7 +36,6 @@ z-index: -199;
   font-size: 400px;
   line-height: var(--line-height_100);
   color: var(--color-dark_pink);
- 
 }
 
 .header__content {
@@ -91,4 +90,12 @@ z-index: -199;
 
 .header__basket {
   height: auto;
+}
+
+.header__background {
+  position: absolute;
+  object-fit: cover;
+  z-index: -100;
+  top: 0;
+  left: 810px;
 }

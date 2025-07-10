@@ -1,5 +1,6 @@
 import "./Header.css";
 import basket from "../../images/header-basket.svg";
+import backgroundImage from "../../images/slider-background.png";
 
 function Header() {
   return (
@@ -44,6 +45,11 @@ function Header() {
           />
         </a>
       </nav>
+      <img
+        src={backgroundImage}
+        alt="фоновая картинка слайдера"
+        className="header__background"
+      />
     </header>
   );
 }
